@@ -20,10 +20,6 @@ import pySaliencyMap
 segmentsEntropies = []
 segmentsCoords = []
 
-dir = "/Users/dylanseychell/dev/MSRA10K_Imgs_GT/MSRA10K_Imgs_GT/Imgs"
-dir2 = "/Users/dylanseychell/dev/shelves"
-dir3 = "/Users/dylanseychell/dev/⁨COTS/COTSDataset⁩/⁨Part2-MultipleObjects⁩"
-
 segDim = 9
 segments = []
 gtSegments = []
@@ -291,6 +287,7 @@ def mse(imageA, imageB):
 #-------------------------------------------------
 #-------------------------------------------------
 
+#Your Image path goes here 
 cotsSet = "academic_book_no"
 imgPath1 = "/Users/dylanseychell/dev/COTS/COTSDataset/Part2-MultipleObjects/" + cotsSet +"/3_colour.jpeg"
 
